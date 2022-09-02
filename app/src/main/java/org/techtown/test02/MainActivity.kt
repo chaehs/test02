@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         moveToPageBtn.setOnClickListener{
             val myIntent = Intent(this, OtherActivity::class.java)
             startActivity(myIntent)
+
         }
     }
 }

@@ -10,5 +10,14 @@ class OtherActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_other)
 
+        val returnToMainBtn = findViewById<Button>(R.id.returnToMainBtn)
+
+        returnToMainBtn.setOnClickListener{
+//            val myIntent = Intent(this, MainActivity::class.java)
+//            startActivity(myIntent)
+
+            finish()
+        }
+
     }
 }
